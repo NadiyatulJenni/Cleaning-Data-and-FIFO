@@ -15,17 +15,14 @@ Aplikasi web untuk cleaning data dan integrasi FIFO (First In, First Out) untuk 
 
 ## Cara Menggunakan
 
-1. **Unduh Aplikasi**: Unduh file `app.exe` dari folder `dist/`.
-2. **Jalankan Aplikasi**: Klik dua kali pada `app.exe` untuk menjalankan aplikasi.
-3. **Upload Data**: Di sidebar, upload file Excel untuk SO, Barang Masuk, dan Barang Keluar.
-4. **Cleaning Data**: Pilih tab "Data Cleaning", pilih file, atur pengaturan kolom, dan simpan cleaning.
-5. **Proses FIFO**: Pilih tab "Integrasi FIFO", map kolom, atur kolom tambahan jika perlu, lalu jalankan FIFO.
-6. **Unduh Hasil**: Setelah proses selesai, unduh hasil sebagai file Excel.
+1. **Upload Data**: Di sidebar, upload file Excel untuk SO, Barang Masuk, dan Barang Keluar.
+2. **Cleaning Data**: Pilih tab "Data Cleaning", pilih file, atur pengaturan kolom, dan simpan cleaning.
+3. **Proses FIFO**: Pilih tab "Integrasi FIFO", map kolom, atur kolom tambahan jika perlu, lalu jalankan FIFO.
+4. **Unduh Hasil**: Setelah proses selesai, unduh hasil sebagai file Excel.
 
 ## Catatan Penting
 
 - Minimal data yang diperlukan: (SO + Keluar) atau (Masuk + Keluar).
-- Pastikan mapping kolom wajib tidak kosong ('-').
 - Aplikasi menggunakan logika FIFO untuk menghitung stok.
 
 ## Pengembang
